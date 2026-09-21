@@ -579,4 +579,8 @@ Qingdao, China
 **This repository is maintained for academic research and reproducibility of electromagnetic earthquake precursor analysis.**
 
 </div>
+---
 
+<p align="center">
+  <a href="#top">⬆️ Back to Top</a>
+</p>
