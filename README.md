@@ -19,28 +19,6 @@
   <a href="mailto:zhenghaiyong@ouc.edu.cn">Haiyong Zheng</a>
 </p>
 
----
-
-## 🎯 Core Innovation
-
-<div align="center">
-
-- **Two-stage earthquake precursor anomaly detection framework.**  
-  SL-AD separates temporal representation learning from downstream anomaly classification, enabling robust feature learning under extremely imbalanced earthquake samples.
-
-- **Multi-scale electromagnetic temporal feature learning.**  
-  The Sequence Learning stage integrates temporal feature compression, Autoformer-based long-range sequence modeling, and adaptive global-local feature filtering to capture multi-scale electromagnetic variations.
-
-- **Transferable temporal representations for rare-event detection.**  
-  Temporal features learned from large-scale unlabeled electromagnetic sequences are transferred to the downstream anomaly detection stage, reducing dependence on the limited number of major-earthquake samples.
-
-- **Interpretable precursor representation analysis.**  
-  Attention visualization and encoding-correlation analysis are used to examine temporal regions emphasized by the model and quantify differences between earthquake-related and non-earthquake electromagnetic representations.
-
-</div>
-
----
-
 ## 📑 Table of Contents
 
 <details open>
@@ -48,7 +26,6 @@
 
 - **[📌 Highlights](#-highlights)**
 - **[🔬 Abstract](#-abstract)**
-- **[🎯 Research Motivation](#-research-motivation)**
 - **[📡 Dataset and Study Region](#-dataset-and-study-region)**
 - **[🏗️ Methodology](#%EF%B8%8F-methodology)**
   - [Sequence Learning Stage](#sequence-learning-stage)
@@ -141,32 +118,6 @@ Additional ablation, visualization, and feature-correlation analyses
 demonstrate the importance of both the two-stage learning strategy
 and multi-scale temporal representation for electromagnetic precursor
 analysis.
-
----
-
-## 🎯 Research Motivation
-
-Electromagnetic signals potentially associated with earthquakes are
-weak, nonstationary, and embedded in complex background fluctuations.
-
-Deep-learning-based earthquake precursor analysis faces two major
-challenges:
-
-- **Complex temporal patterns:** electromagnetic observations contain
-  periodic, high-frequency, and long-range temporal dependencies.
-
-- **Extreme class imbalance:** major earthquakes occur rarely, resulting
-  in very limited positive samples compared with normal observations.
-
-Direct end-to-end classification may therefore cause a model to become
-biased toward dominant non-earthquake patterns.
-
-SL-AD addresses this problem by first learning general temporal
-representations from large-scale electromagnetic sequences and then
-transferring these representations to the rare-event anomaly detection
-task.
-
----
 
 ## 📡 Dataset and Study Region
 
@@ -621,12 +572,11 @@ Ocean University of China
 Qingdao, China  
 📧 Email: [yuzining@ouc.edu.cn](mailto:yuzining@ouc.edu.cn)
 
-**Shanzhi Dong**  
-College of Electronic Engineering  
-Ocean University of China  
-Qingdao, China  
-📧 Email: [dongshanzhi204730@gmail.com](mailto:dongshanzhi204730@gmail.com)
-
 ---
 
+<div align="center">
+
 **This repository is maintained for academic research and reproducibility of electromagnetic earthquake precursor analysis.**
+
+</div>
+
