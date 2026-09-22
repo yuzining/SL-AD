@@ -1,4 +1,5 @@
-# SL-AD: Detection of Electromagnetic Temporal Anomalies Associated with Major Earthquakes via a Two-Stage Deep Learning Framework
+<a id="top"></a>
+# SL-AD: Detection of Electromagnetic Temporal Anomalies Associated with Major Earthquakes in Western China via a Two-Stage Deep Learning Framework
 
 <p align="center">
   Zining Yu<sup>1</sup>, Xilong Jing<sup>1</sup>, Jiarui Zhang<sup>1</sup>,
@@ -303,15 +304,6 @@ The model is evaluated on eight earthquakes occurring during 2022–2023.
 
 For each event, the predicted probabilities of associated monitoring stations are aggregated to analyze their temporal evolution.
 
-The case studies show that:
-
-- predicted anomaly probabilities generally increase before earthquake occurrence;
-- cumulative anomaly counts begin to increase several days before the events;
-- anomaly counts reach their highest levels around earthquake occurrence;
-- anomaly activity decreases after the earthquake.
-
-The cumulative analysis indicates a noticeable increase approximately **five days before the earthquakes**.
-
 ### Model Comparison
 
 SL-AD is compared with representative time-series models including:
@@ -365,7 +357,7 @@ These findings indicate that SL-AD learns a distinguishable feature space for ea
 
 ### 🚧 Repository Under Construction
 
-The implementation will be released after publication.
+The source code will be made publicly available upon acceptance of the manuscript.
 
 ### Planned Repository Structure
 
@@ -461,11 +453,9 @@ SL-AD/
 
 The electromagnetic observations used in this study were obtained from the **AETA (Acoustic and Electromagnetics to Artificial Intelligence)** platform.
 
-The earthquake catalog and associated seismic information were supported by the China Earthquake Networks Center and the National Earthquake Data Center.
+The earthquake catalog data are freely available from the **China Earthquake Networks Center (CENC)** at [https://news.ceic.ac.cn/index.html](https://news.ceic.ac.cn/index.html).
 
-Due to data ownership and redistribution requirements, the original raw observation files may not be redistributed directly through this repository.
-
-Data preprocessing procedures and dataset construction scripts will be provided to facilitate reproducibility where permitted.
+The processed data used in this study will be made publicly available upon acceptance of the manuscript.
 
 ---
 
@@ -491,46 +481,6 @@ tqdm
 ```
 
 > Exact package versions will be provided together with the released implementation.
-
----
-
-## 🔁 Reproducibility
-
-The experimental workflow consists of:
-
-```text
-1. AETA data preprocessing
-2. Electromagnetic sequence construction
-3. SL-stage sequence learning
-4. Transfer of learned temporal representations
-5. AD-stage fine-tuning
-6. Earthquake precursor anomaly detection
-7. ROC and classification evaluation
-8. Earthquake case analysis
-9. Attention and encoding-correlation analysis
-```
-
-The released code will include configuration files and random-seed settings required to reproduce the main experiments.
-
----
-
-## 📄 Citation
-
-If you use this work, please cite:
-
-```bibtex
-@article{yu2026slad,
-  title   = {Detection of Electromagnetic Temporal Anomalies Associated with Major Earthquakes in Western China via a Two-Stage Deep Learning Framework},
-  author  = {Yu, Zining and Jing, Xilong and Zhang, Jiarui and Yang, Minglin and Dong, Shanzhi and Zheng, Haiyong},
-  journal = {IEEE Journal of Selected Topics in Applied Earth Observations and Remote Sensing},
-  year    = {2026},
-  note    = {Under review}
-}
-```
-
-> Citation information will be updated after publication.
-
----
 
 ## 🙏 Acknowledgment
 
@@ -579,7 +529,6 @@ Qingdao, China
 **This repository is maintained for academic research and reproducibility of electromagnetic earthquake precursor analysis.**
 
 </div>
----
 
 <p align="center">
   <a href="#top">⬆️ Back to Top</a>
