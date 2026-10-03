@@ -54,7 +54,7 @@
 
 1. SL-AD: a two-stage deep learning framework consisting of a Sequence Learning (SL) stage and an Anomaly Detection (AD) stage for EM-based earthquake precursor detection.
 
-2. A SL-AD achieves superior EM precursor detection performance, serving as a new benchmark.
+2. SL-AD achieves superior EM precursor detection performance, serving as a new benchmark.
 
 3. Identifies possible EM precursor signals approximately five days before earthquakes.
 
