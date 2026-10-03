@@ -453,7 +453,7 @@ SL-AD/
 
 The electromagnetic observations used in this study were obtained from the **AETA (Acoustic and Electromagnetics to Artificial Intelligence)** platform.
 
-The earthquake catalog data are freely available from the **China Earthquake Networks Center (CENC)** at [https://news.ceic.ac.cn/index.html](https://news.ceic.ac.cn/index.html).
+The earthquake catalog data are freely available from the **China Earthquake Networks Center (CENC)** at [https://data.earthquake.cn/](https://data.earthquake.cn/).
 
 The processed data used in this study will be made publicly available upon acceptance of the manuscript.
 
