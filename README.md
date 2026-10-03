@@ -52,25 +52,15 @@
 
 ### Key Contributions
 
-1. A two-stage deep learning framework, termed **SL-AD
-   (Sequence Learning–Anomaly Detection)**, is proposed for
-   electromagnetic earthquake precursor detection.
+1. SL-AD: a two-stage deep learning framework consisting of a Sequence Learning (SL) stage and an Anomaly Detection (AD) stage for EM-based earthquake precursor detection.
 
-2. A large-scale upstream sequence-learning task is introduced to
-   learn transferable temporal representations before downstream
-   earthquake anomaly classification.
+2. A SL-AD achieves superior EM precursor detection performance, serving as a new benchmark.
 
-3. A multi-scale temporal representation architecture combines
-   **PCA-based feature compression, 1-D convolution, Autoformer,
-   and Guided Local Adaptive Feature Filtering (GLAFF)**.
+3. Identifies possible EM precursor signals approximately five days before earthquakes.
 
-4. A downstream **BiLSTM-based anomaly classifier** transfers
-   the learned temporal representations to highly imbalanced
-   earthquake precursor detection.
+4. Ablation studies confirm the necessity of the two-stage design and multi-scale feature learning.
 
-5. Attention visualization and feature-encoding correlation analysis
-   are introduced to investigate the temporal characteristics learned
-   from earthquake-related electromagnetic signals.
+5. Attention visualization reveals a correlation between EM temporal patterns and earthquakes.
 
 ### Performance Highlights
 
