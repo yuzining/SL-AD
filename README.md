@@ -21,7 +21,7 @@
 </p>
 
 <p align="center">
-  <img src="figures/framework.png" alt="SL-AD Framework" width="90%">
+  <img src="figures/Graphical_Abstract.jpg" alt="SL-AD Framework" width="90%">
 </p>
 
 ## 📑 Table of Contents
